@@ -1,0 +1,19 @@
+{
+  "name": "hw7-updatedportfolio",
+  "version": "1.0.0",
+  "description": "Newly Updated Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unvaluedfall/HW7-UpdatedPortfolio.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unvaluedfall/HW7-UpdatedPortfolio/issues"
+  },
+  "homepage": "https://github.com/Unvaluedfall/HW7-UpdatedPortfolio#readme"
+}

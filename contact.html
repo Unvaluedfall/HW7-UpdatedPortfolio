@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.2/dist/css/uikit.min.css" />    <!-- UIkit JS -->
+    
+    <link rel="stylesheet" href="./assets/css/style.css" />    
+    
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.2/dist/js/uikit-icons.min.js"></script>    
+
+</head>
+<body>
+    
+    <nav class=" uk-background-secondary" uk-navbar>
+        <div class="uk-navbar-left">
+            <div class="uk-navbar-item uk-logo uk-background-muted">Jordon Runge</div>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-light">
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="porfolio.html">Portfolio</a></li>
+                <li class="uk-active uk-background-default"><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="uk-section">
+        <div class="uk-container uk-background-muted uk-padding-large">
+            
+            <form class="uk-form-stacked">
+
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-name">Your Name</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="form-stacked-name" type="text" placeholder="Please Enter Your Name Here!">
+                    </div>
+                </div>
+
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-email">Your Email</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-input" id="form-stacked-email" type="text" placeholder="Please Enter Your Email Here">
+                    </div>
+                </div>
+                
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="form-stacked-textarea">Text</label>
+                    <div class="uk-form-controls">
+                        <input class="uk-textarea" id="form-stacked-textarea" type="text" placeholder="Why Are You Contacting Me?">
+                    </div>
+                </div>
+
+                <button class="uk-button uk-button-secondary uk-align-right" type="button" tabindex="">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
